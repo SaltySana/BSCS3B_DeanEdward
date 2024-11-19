@@ -21,7 +21,7 @@ function getUsers(){
     
     let html=""
 
-    // fetch("http://localhost:5001/api/members", {mode: "cors"})//cross orgin
+    // fetch("https://bscs2b-api-crud-d1j4.onrender.com/api/members", {mode: "cors"})//cross orgin
     fetch("https://bscs2b-api-crud-d1j4.onrender.com/api/members", {mode: "cors"})//cross orgin
     .then((response)=>{
         console.log(response)
